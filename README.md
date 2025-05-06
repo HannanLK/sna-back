@@ -23,4 +23,22 @@ git clone https://github.com/yourusername/sna-back.git
 cd sna-back
 ```
 ### 2. Create a Virtual Environment
-```python -m venv venv```
+```bash
+python -m venv venv
+
+#To Activate the environment in Windows: venv\Scripts\activate
+#To Activate in Mac/Linus: source venv/bin/activate
+```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Set Up Database
+Ensure your PostgreSQL database is running. Update the .env file with your database credentials:
+```bash
+DATABASE_URL=postgresql://username:password@localhost/dbname
+```
+### 5. Run the FastAPI Server
+```bash
+uvicorn app.main:app --reload
+```
