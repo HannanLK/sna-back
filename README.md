@@ -51,11 +51,13 @@ uvicorn app.main:app --reload
 - FastAPI (for building the API)  
 - Uvicorn (ASGI server)  
 - SQLAlchemy (for interacting with PostgreSQL)  
-- PostgreSQL (for database management)  
+- PostgreSQL (for database management)
+- DistilBERT (for sentiment analysis)
 - Python 3.x  
 
 ## 📂 Directory Structure
-- `app/`: Contains the FastAPI app and API routes  
+- `app/`: Contains the FastAPI app and API routes
+- `app/ml/`: Contains machine learning models and related code
 - `models/`: Contains database models  
 - `schemas/`: Contains Pydantic models for request/response validation
   
