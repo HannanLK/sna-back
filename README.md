@@ -19,7 +19,7 @@ This is the backend for the **Sentiment Analysis Tool**. It provides a REST API 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sna-back.git
+git clone https://github.com/hannanlk/sna-back.git
 cd sna-back
 ```
 ### 2. Create a Virtual Environment
