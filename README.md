@@ -47,19 +47,19 @@ DATABASE_URL=postgresql://username:password@localhost/dbname
 ```bash
 uvicorn app.main:app --reload
 ```
-📝 Tech Stack:
+## 📝 Tech Stack:
 -FastAPI (for building the API)
 -Uvicorn (ASGI server)
 -SQLAlchemy (for interacting with PostgreSQL)
 -PostgreSQL (for database management)
 -Python 3.x
 
-📂 Directory Structure
+## 📂 Directory Structure
 app/: Contains the FastAPI app and API routes.
 models/: Contains database models.
 schemas/: Contains Pydantic models for request/response validation.
 
-🌐 Deployment
+## 🌐 Deployment
 Can be deployed on any cloud provider (e.g., Google Cloud, AWS, Azure).
 For deployment instructions, follow the [FastAPI Deployment Guide](https://fastapi.tiangolo.com/deployment/).
 
