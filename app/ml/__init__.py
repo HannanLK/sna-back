@@ -1,1 +1,1 @@
-from sna_ml.inference import predict_sentiment
+from app.ml.inference import predict_sentiment
