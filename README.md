@@ -25,9 +25,14 @@ cd sna-back
 ### 2. Create a Virtual Environment
 ```bash
 python -m venv venv
-
-#To Activate the environment in Windows: venv\Scripts\activate
-#To Activate in Mac/Linus: source venv/bin/activate
+```
+To Activate the virtual environment in Windows: 
+```bash
+venv\Scripts\activate
+```
+To Activate the virtual environment in Mac/Linux: 
+```bash
+source venv/bin/activate
 ```
 ### 3. Install Dependencies
 ```bash
@@ -42,3 +47,19 @@ DATABASE_URL=postgresql://username:password@localhost/dbname
 ```bash
 uvicorn app.main:app --reload
 ```
+📝 Tech Stack
+FastAPI (for building the API)
+Uvicorn (ASGI server)
+SQLAlchemy (for interacting with PostgreSQL)
+PostgreSQL (for database management)
+Python 3.x
+
+📂 Directory Structure
+app/: Contains the FastAPI app and API routes.
+models/: Contains database models.
+schemas/: Contains Pydantic models for request/response validation.
+
+🌐 Deployment
+Can be deployed on any cloud provider (e.g., Google Cloud, AWS, Azure).
+For deployment instructions, follow the [FastAPI Deployment Guide](https://fastapi.tiangolo.com/deployment/).
+
