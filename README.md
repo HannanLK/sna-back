@@ -47,12 +47,12 @@ DATABASE_URL=postgresql://username:password@localhost/dbname
 ```bash
 uvicorn app.main:app --reload
 ```
-📝 Tech Stack
-FastAPI (for building the API)
-Uvicorn (ASGI server)
-SQLAlchemy (for interacting with PostgreSQL)
-PostgreSQL (for database management)
-Python 3.x
+📝 Tech Stack:
+-FastAPI (for building the API)
+-Uvicorn (ASGI server)
+-SQLAlchemy (for interacting with PostgreSQL)
+-PostgreSQL (for database management)
+-Python 3.x
 
 📂 Directory Structure
 app/: Contains the FastAPI app and API routes.
